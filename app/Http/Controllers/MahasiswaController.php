@@ -32,7 +32,7 @@ class MahasiswaController extends Controller
       return response()->json([
         'status' => 'sukses',
         'message' => 'haloo '. $user->nama,
-        'mahasiswa' => $user
+        'mahasiswa' => $user->nama
       ],200);
     }
 
